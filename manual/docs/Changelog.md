@@ -3,7 +3,6 @@
 * Fix error if query : CREATE or DROP
 * Fix error : SELECT * FROM col array(int64)
 
-
 ## 2018-02-05 Master [18.02.1]
 
 * Fix error if Int64 column & result is empty

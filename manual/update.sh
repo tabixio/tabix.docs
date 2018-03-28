@@ -4,7 +4,7 @@ if [[ `git status --porcelain` ]]; then
   git pull
   /usr/local/bin/mkdocs build
 else
-  # no changes
+    echo ok >/dev/null
 fi
 
 

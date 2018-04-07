@@ -2,8 +2,8 @@ Tabix is open source simple BI and sql editor tool for Clickhouse.
 ==================================================================
 
 
-Tabix -- Что это ?
-Tabix -- Откуда он появился ?
+Tabix - это инструмент для создания запросов к базе данных - ClickHouse
+
 
 
 ## Install and run
@@ -43,34 +43,31 @@ Tabix -- Откуда он появился ?
 
 В нижней части результат
 
-
-Todo: расписать про меню сверху
-
-Todo: Какие горячие клавиши есть глобальные
-
 Основной экран Tabix - Дерево
 ==================================================================
 
-Todo: про дерево - что поддержка правой кнопки,
+
+В левой часте расположенны все базы данных узла к которому вы подключены.
+
+На каждой таблице можно кликнуть правой кнопкой и получить дополнительне действия над таблицей.
 
 
 ![Tabix MultiQuery Chart](articel01img/treeRightClick.png)
 
 
-Todo: про дерево - что можно кликнуть на поля
 
-Todo: про дерево - Для чего нужна кнопка Reload structure
+Развернув таблицу можно получить список полей, кликая мышкой - поле будет автоматически вставляться в SQL редактор.
 
-Todo: про дерево - Как открыть быстро таблицу для просмотра, сделав DoubleClick
+Кнопка `Reload structure` необходим для обновления стурктуры базы, т/к дерево обьектов кэшируется
+
+Можно открыть для просмотра таблицу сделав DoubleClick
+
 ![Tabix MultiQuery Chart](articel01img/TablePreview.png)
 
 
-
+Так же в дереве:
 Display the number of tables at the database
-
 The icon of the table depends on its engine
-
-List of fields in the table and inserting the field when clicking in the editor
 
 
 
@@ -208,9 +205,8 @@ Todo: - расчет median / avg по выделенным ячейкам
 
 
 
-Todo: - пример как используются простейшие графики - как tabix пытается подстроиться под данные
 
-
+Выполним простой запрос, где в результате выполнения первое поле в формате `Date`
 
 ```sql
 
@@ -221,8 +217,12 @@ FROM
   ontime
 GROUP BY FlightDate
 ```
+
+Если сразу перейти на вкладку "Draw"
+
 ![Tabix DRAW Chart](articel01img/fly.png)
 
+Выполним другой запрос:
 
 ```sql
 SELECT
@@ -251,10 +251,11 @@ HAVING fly>1000
 
 
 
-Todo: - Пару примеров как строить сложные графики
+Пару примеров как строить сложные графики
 
+*DRAW_SANKEYS*
 
-// DRAW_SANKEYS https://tabix.io/doc/draw/Draw_Sankeys/
+https://tabix.io/doc/draw/Draw_Sankeys/
 
 
 ```sql
@@ -271,7 +272,9 @@ DRAW_SANKEYS  "Carrier.fly.DestCityName"
 
 
 
-// Draw Treemap : https://tabix.io/doc/draw/Draw_Treemap/
+*DRAW_TREEMAP*
+
+https://tabix.io/doc/draw/Draw_Treemap/
 
 
 
@@ -285,6 +288,10 @@ HAVING fly>1000
 DRAW_TREEMAP  "Carrier.DestCityName"
 ```
 ![Tabix TREEMAP](articel01img/DRAW_TREEMAP_Carrier.DestCityName.fly.png)
+
+
+*DRAW_CALENDAR*
+
 ```sql
 
 SELECT

@@ -1,3 +1,16 @@
+## 2018-04-10
+* Fix color in cells
+* Add `Inconsolata` font for Windows/Linux users
+* Fix error in Int64 render, use JavaScript.MAX_SAFE_INTEGER
+
+
+todo :
+* Server Overview : add table view for more info
+* Server Processes : fix table render
+* Database review
+
+
+
 ## 2018-02-14 Master [18.02.2]
 
 * Fix error if query : CREATE or DROP

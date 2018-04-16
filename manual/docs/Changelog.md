@@ -2,11 +2,13 @@
 * Fix color in cells
 * Add `Inconsolata` font for Windows/Linux users
 * Fix error in Int64 render, use JavaScript.MAX_SAFE_INTEGER
+* Fix : SQL Editor position bug after load/reload
+* ServerProcesses : rewrite & fix table render
 
 
-todo :
+Todo :
+
 * Server Overview : add table view for more info
-* Server Processes : fix table render
 * Database review
 
 

@@ -37,7 +37,7 @@ SELECT 'RU' as country,'SCH' as city,8 as valueLink,32 as countryValue,10 as cit
 DRAW_GRAPH
 {
     path:'country.valueLink.city',
-    layout:'circular',
+    layout:'force',
     targetValue:'cityValue',
     sourceValue:'countryValue'
 }

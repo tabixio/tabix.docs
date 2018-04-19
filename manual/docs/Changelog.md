@@ -1,4 +1,4 @@
-## 2018-04-10
+## 2018-04-19 Master [18.04.1]
 * Fix color in cells
 * Add `Inconsolata` font for Windows/Linux users
 * Fix error in Int64 render, use JavaScript.MAX_SAFE_INTEGER

@@ -4,7 +4,7 @@
 * Fix error in Int64 render, use JavaScript.MAX_SAFE_INTEGER
 * Fix : SQL Editor position bug after load/reload
 * ServerProcesses : rewrite & fix table render
-
+* Add DRAW_GRAPH ( Force-Directed Layout )
 
 Todo :
 

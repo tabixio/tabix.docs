@@ -1,5 +1,16 @@
 #### TODO UI:
 
+
+
+
+Todo :
+
+* Server Overview : add table view for more info
+* Database review
+
+
+
+
 Cluster rendering: nodes and replicas, highlighting the main parameters of nodes
 
 
@@ -28,10 +39,3 @@ Cluster rendering: nodes and replicas, highlighting the main parameters of nodes
 * Tips on server fields store backend
 * http-stream as table
 *
-
-
-
-## See Kanban Dashboard
-
-https://tree.taiga.io/project/isublimity-chg/kanban
-

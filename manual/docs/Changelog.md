@@ -6,11 +6,6 @@
 * ServerProcesses : rewrite & fix table render
 * Add DRAW_GRAPH ( Force-Directed Layout )
 
-Todo :
-
-* Server Overview : add table view for more info
-* Database review
-
 
 
 ## 2018-02-14 Master [18.02.2]

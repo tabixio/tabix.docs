@@ -59,6 +59,66 @@ DRAW_GRAPH
 }
 ```
 
+## Arrow
+
+edgeSymbol = [Array, string ]
+
+[ default: ['none', 'none'] ]
+
+Symbol of two ends of edge line.
+
+```sql
+
+
+DRAW_GRAPH
+{
+    path:'country.valueLink.city',
+    layout:'force',
+    edgeSymbol:['circle', 'arrow']
+}
+
+
+DRAW_GRAPH
+{
+    path:'country.valueLink.city',
+    layout:'force',
+    edgeSymbol:'arrow'
+}
+
+
+```
+
+## Direct code Echarts
+
+```sql
+
+
+DRAW_GRAPH
+{
+    path:'country.valueLink.city',
+    layout:'force',
+    targetValue:'cityValue',
+    sourceValue:'countryValue',
+    raw:{
+        series:[
+                {
+                    edgeSymbol:'arrow',
+                    edgeSymbolSize:40,
+                    label:{show:true},
+                    lineStyle:{
+                        type:'dotted',
+                        width:40,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)',
+                        shadowBlur: 10
+                    }
+
+                }
+        ]
+
+    }
+}
+
+```
 
 ## Echart Doc
 

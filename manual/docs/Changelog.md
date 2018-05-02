@@ -1,3 +1,8 @@
+## 2018-05-02 Master [18.05.1]
+
+* Fix on insert Tabix show error
+* add `DRAW_FLATTREE`
+
 ## 2018-04-19 Master [18.04.1]
 * Fix color in cells
 * Add `Inconsolata` font for Windows/Linux users

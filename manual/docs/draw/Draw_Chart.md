@@ -112,3 +112,47 @@ DRAW_CHART
 
 
 ![draw_chart_group_chart](/img/draw_chart_group_chart.png)
+
+
+
+### Custom chart
+
+```sql
+SELECT sin(number) as s,cos(number) as c,number
+FROM system.numbers where number<12 LIMIT 12
+DRAW_CHART
+{
+    xAxis:'number',
+    yAxis:['s','c'],
+    series:[
+        {smooth:true,areaStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgb(255, 158, 68)'
+                    }, {
+                        offset: 1,
+                        color: 'rgb(255, 70, 131)'
+                    }])
+                }
+            }
+        },
+        {smooth:false,
+            areaStyle: {
+                normal: {}
+            },
+        }
+    ]
+}
+```
+
+![draw_chart_group_chart](/img/draw-chart-custom1Chart.png)
+
+
+
+### Echart Doc
+
+https://ecomfe.github.io/echarts-examples/public/editor.html?c=area-basic
+
+
+https://ecomfe.github.io/echarts-doc/public/en/option.html#series-line

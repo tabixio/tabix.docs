@@ -3,7 +3,7 @@
 * Fix on insert Tabix show error
 * add `DRAW_FLATTREE`
 
-## 2018-04-19 Master [18.04.1]
+## 2018-04-19
 * Fix color in cells
 * Add `Inconsolata` font for Windows/Linux users
 * Fix error in Int64 render, use JavaScript.MAX_SAFE_INTEGER
@@ -13,35 +13,35 @@
 
 
 
-## 2018-02-14 Master [18.02.2]
+## 2018-02-14
 
 * Fix error if query : CREATE or DROP
 * Fix error : SELECT * FROM col array(int64)
 
-## 2018-02-05 Master [18.02.1]
+## 2018-02-05
 
 * Fix error if Int64 column & result is empty
 * Show message `Press reload structure` if query : CREATE or DROP 
 
-## 2018-01-29 Master [18.01.1]
+## 2018-01-29
 
 
 * Int64 problem is String auto find max value and convert to Int
 * Calc selected cells [avg,median,sum,std]
 * Add credentials include
 
-## 2017-11-13 Master [17.11.2]
+## 2017-11-13
 
 * Fix `WITH 1+1 as a SELECT a`
 * Fix AutoFormat error
 * Disable RO User
 * Fix highlight `RENAME TABLE`
 
-## 2017-11-13 Master [17.11.1]
+## 2017-11-13
 
 * Fix echarts error if empty "median"
 
-## 2017-11-02 Master [17.11.1]
+## 2017-11-02
 
 Main:
 

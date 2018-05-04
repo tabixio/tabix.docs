@@ -118,7 +118,7 @@ RU :
 
 
 
-### 2017-08-08
+## 2017-08-08
 
 * Update handsontable + echarts 
 * Fix ERR_BIG_header
@@ -129,18 +129,18 @@ RU :
 * Fix Export to TSV
 * Fix DrawChart 
 
-### 2017-07-12
+## 2017-07-12
 
 * Support Clickhouse 1.1.54237 - Renamed column "default_type" to "default_kind" in system.columns
 * Fix translations YandexBrowser
 * Update handsontable 0.33.0
 * Build 17.07.1
 
-### 2017-07-08
+## 2017-07-08
 
 * Create Table from select grid
 
-### 2017-05-29
+## 2017-05-29
 
 * "Draw Chart by Group" [see Draw_CHART](https://tabix.io/doc/draw/Draw_Chart/#group-columns)
 * ProcessList in cluster, show all process in top 10 servers
@@ -160,41 +160,41 @@ Minor:
 * Add "how to start in Docker"
 
 
-### 2017-04-09
+## 2017-04-09
 
 * Fix : Cannot parse input: expected ( before: /TABIX_QUERY_ID_ec0JCHn37U409iQ_()/
 * Fix : SideBar menu reload on DROP/CREATE table
 * Public build 17.04.3
 
 
-### 2017-04-07
+## 2017-04-07
 
 * Change route to `#`
 * Add load CSV to Browser table
 * Add WHERE IN (`@local_csv`)
 
-### 2017-04-06
+## 2017-04-06
 
 * Export CSV + add support multi query
 * Move Stats table to Tab
 * Public build 17.04.2
 
 
-### 2017-04-03
+## 2017-04-03
 
 * Fix render FORMAT CSVWithNames
 
 
-### 2017-04-01
+## 2017-04-01
 
 * Public build 17.04.1
 
-### 2017-03-31
+## 2017-03-31
 
 * Add google map
 
 
-### 2017-03-29
+## 2017-03-29
 
 * Sankeys - fix dark theme
 * Fix table resize
@@ -202,7 +202,7 @@ Minor:
 * Parse error and move cursor
 * Parse & highlight $variable in SQL Query
 
-### 2017-03-25
+## 2017-03-25
 
 * Draw_Calendar
 * Echarts update to 3.5.0
@@ -215,7 +215,7 @@ Minor:
 
 
 
-### Tabix  2017-03-24 Init release
+## Tabix  2017-03-24 Init release
 *  Bind: Cmd-Y | Ctrl-Y = removeLines
 *  Автодополнение + подсказка по полям с типом
 *  Автодополнение словарей + подсказка
@@ -319,23 +319,23 @@ Minor:
 *  Отказ от AmChart
 *  Автоматические оси
 
-### 2016-12-17
+## 2016-12-17
 
 * "Order by и group by" - подсветка fix
 * Разделитель запросов
 
 
-### 2016-12-11
+## 2016-12-11
 
 * Добавлена поддержка английского языка. Язык выбирается автоматически в зависимости от настроек браузера
 * httpS поддержка - если указать в подключении https://ip:port
 
-### 2016-11-03
+## 2016-11-03
 Полностью обновили GUI
 Вместо слов : https://monosnap.com/file/rIEnBkDoh0jMmhGDsu0umaqk5F0srt
 
 
-### 2016-10-12
+## 2016-10-12
 * Запрос на create_table из select , если запрос содержит таблицу ответа
 * Сортировка словарей по name + удобное отображение
 * Выполнение запроса "под курсором"
@@ -346,14 +346,14 @@ Minor:
 * Вынесен screenfull из html в зависимости
 * Изменения в шаблоне lumX
 
-### 2016-10-11
+## 2016-10-11
 * Показ версии сборки
 * Автодополнение, поддержка словарей - отдельная кнопка вставить словать
 * Прогресс бар запросов
 * Правки подсветки IF EXISTS + IF NOT EXISTS
 * Отрисовка ответа после create/drop/insert + обновление автодополнения
 
-### 2016-10-10
+## 2016-10-10
 * Добавили поддержку FORMAT CSV|FORMAT CSVWithNames в запросе + подсветка + дополнение
 * В редакторе добавленна возможность максимальное кол-во строк в ответа
 * Развернуть в полный экран редактор запросов

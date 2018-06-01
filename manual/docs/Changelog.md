@@ -1,4 +1,9 @@
-## 2018-05-02 Master [18.05.1]
+## 2018-06-01 Master [18.06.1]
+
+* Fix Literal sorting in human-readable columns #69
+* Fix `Count` in Processes List
+
+## 2018-05-02 Master
 
 * Fix on insert Tabix show error
 * add `DRAW_FLATTREE`

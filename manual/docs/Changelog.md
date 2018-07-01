@@ -1,3 +1,7 @@
+## 2018-06-01 Master [18.07.1]
+* Fix error on login - Init Database structure
+* Last release Tabix on Agular ;)
+
 ## 2018-06-01 Master [18.06.1]
 
 * Fix Literal sorting in human-readable columns #69

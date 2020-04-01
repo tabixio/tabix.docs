@@ -92,3 +92,7 @@ Now you can access `tabix.ui` by the link http://localhost:8080.
 > **Automatic connection**: you can automatically connect to a Clickhouse server by specifying
 > `CH_NAME`, `CH_HOST`, `CH_LOGIN`, `CH_PASSWORD` and/or `CH_PARAMS` environment variables.
 > For example, `docker run -d -p 8080:80 -e CH_NAME='myco' -e CH_HOST='clickhouse.myco.intranet:8123' spoonest/clickhouse-tabix-web-client`
+
+> **Base URL override**: you can specifiy base url for tabix, in case if it stored not in root, using
+> `BASE_URL` environment variables. It could be usefull for installations behind proxy, like nginx or Ingres for kubernetes.
+>  Example: `docker run -d -p 8080:80 -e BASE_URL='/staging/tabix/' sspoonest/clickhouse-tabix-web-client`
